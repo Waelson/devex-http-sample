@@ -1,0 +1,6 @@
+application: http-sample
+api_url: http://127.0.0.1:8080
+build:
+  test_command: ["go", "test", "./..."]
+  dockerfile: Dockerfile
+  context: .
